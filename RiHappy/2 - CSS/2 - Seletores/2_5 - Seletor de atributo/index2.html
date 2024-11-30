@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seletor de atributo</title>
+    <style>
+        /*Vai procurar um texto exato como valor, ou o valor seguido por um hífen */
+        /*[atrib|=value]*/
+        [title|="Streaming"] {
+            background-color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <ul>
+            <li>
+                <a href="https://www.netflix.com" title=" Streaming-Netflix" target="_blank">Netflix</a>
+            </li>
+            <li>
+                <a href="https://www.primevideo.com" title="Streaming-Prime" target="_blank">Prime Vídeo</a>
+            </li>
+            <li>
+                <a href="https://www.Spotify.com" title="Spotify" target="_blank">Spotify</a>
+            </li>
+            <li>
+                <a title="streaming">Disney Plus</a>
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>

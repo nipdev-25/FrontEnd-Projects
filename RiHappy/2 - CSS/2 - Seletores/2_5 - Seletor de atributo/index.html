@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seletor de atributo</title>
+    <style>
+        /*[atrib=value]*/
+        /*Seletor de atributo; cujo title tenha o valor Netflix*/
+        [title="Netflix"] {
+            color: red;
+        }
+
+        [title="Spotify"] {
+            color: green;
+        }
+
+        [title="Prime"] {
+            color: lightsteelblue;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <ul>
+            <li>
+                <a href="https://www.netflix.com" title="Netflix" target="_blank">Netflix</a>
+            </li>
+            <li>
+                <a href="https://www.primevideo.com" title="Prime" target="_blank">Prime Vídeo</a>
+            </li>
+            <li>
+                <a href="https://www.Spotify.com" title="Spotify" target="_blank">Spotify</a>
+            </li>
+            <li>
+                <a title="Netflix">Disney Plus</a>
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>
